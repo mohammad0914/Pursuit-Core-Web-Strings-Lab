@@ -13,7 +13,7 @@
 // => 'jimmY'
 ```
 
-5. Create a drEvil code block that will take a single number varaible, and log the '<variablbeAmount> dollars',
+5. Create a drEvil code block that will take a single number variable, and log the '<variableAmount> dollars',
 your code block should add '(pinky)' at the end of the amount if it's 1 million. For example:
 
 ```js
@@ -37,4 +37,4 @@ verbing('go')
 // =>  'go'
 ```
  
-7. Create a `withoutLast` code block that takes a single string variable, and returns a copy of the string without the  last 
+7. Create a `withoutLast` code block that takes a single string variable, and returns a copy of the string without the last word.

@@ -63,8 +63,8 @@ If the string is not at least 3 characters long then log an error message.
 
 Examples, for variables: 
 ```js
-    let name1 = 'Taq' // Should log 'Taq'
-    let sentence = 'He is Taq'// Should log 'Taq'
+let name1 = 'Taq' // Should log 'Taq'
+let sentence = 'He is Taq'// Should log 'Taq'
 ```
 ___
 

@@ -1,10 +1,10 @@
 # String Exercises
 
-1. console.log the first character of a string.
+1. `console.log` the first character of a string.
 
-2. console.log the length of a string.
+2. `console.log` the length of a string.
 
-3. console.log the last character of any string. 
+3. `console.log` the last character of any string. 
 
 4. Create a code block that takes a single string variable, and returns a copy of the string with the last letter capitalized. For example:
 

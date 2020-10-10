@@ -94,36 +94,52 @@ function everyOtherLetter() {}
  * @param {string}
  * @returns {string}
  */
- function disemvowel() {}
+function disemvowel() {}
 
 /**
- * Takes a string sentence and returns a new sentence. 
- * Any word that has a length of 5 or more characters should be disemvoweled. 
+ * Takes a string sentence and returns a new sentence.
+ * Any word that has a length of 5 or more characters should be disemvoweled.
  * @param {string}
  * @returns {string}
  */
 
-
- /** 
-  * Takes in a string and returns the middle char. 
-  * If there is no character in the middle return the middle two characters
-  * @param {string}
-  * @returns {string}
-  */
- function middleCharacter(){}
+/**
+ * Takes in a string and returns the middle char.
+ * If there is no character in the middle return the middle two characters
+ * @param {string}
+ * @returns {string}
+ */
+function middleCharacter() {}
 
 /**
- * Takes in a string and reverses it. 
- * Do not use split 
+ * Takes in a string and reverses it.
+ * Do not use split
  * @param {string}
  * @returns {string}
  */
 
- function reverseString(){}
+function reverseString() {}
 
- /**
-  * Takes in a sentence string and reverses each word but not the 
-  * order of the words. 
-  * @param {string}
-  * @returns {string}
-  */
+/**
+ * Takes in a sentence string and reverses each word but not the
+ * order of the words.
+ * @param {string}
+ * @returns {string}
+ */
+
+function reverseSentenceWords() {}
+
+module.exports = {
+  firstChar,
+  stringLength,
+  lastLetter,
+  capitalizeLastLetter,
+  drEvil,
+  verbing,
+  removeLastWord,
+  everyOtherLetter,
+  disemvowel,
+  middleCharacter,
+  reverseString,
+  reverseSentenceWords,
+};

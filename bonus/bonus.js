@@ -16,7 +16,7 @@ function makeStringEvenLength() {}
 /**
  * Takes in a string and returns the last three
  * letters of the string. If the string is less than
- * three characters put the code: throw Error("input less than three characters")
+ * three characters put the code: throw Error("Input less than three characters")
  * @param {string}
  * @returns {string}
  */
@@ -37,7 +37,7 @@ function doesStartWithVowel() {}
  * @param {string} str2
  * @returns {string}
  */
-function combineStrings(){}
+function combineStrings() {}
 /**
  * Write a function that takes in two strings, `str1` and `str2`,
  * return a new string with `str2` mashed into the middle of `str1`
@@ -47,15 +47,15 @@ function combineStrings(){}
  * @param {string} str2
  * @returns {string}
  */
-function mashUp(){}
+function mashUp() {}
 /**
  * Takes in a string and returns whether or not is includes a vowel.
- * Don't use the || (OR) operator,  use the includes method and make it 
+ * Don't use the || (OR) operator,  use the includes method and make it
  * case insensitive https://en.wikipedia.org/wiki/Case_sensitivity.
  * @param {string}
  * @returns {boolean}
  */
-function includesVowel(){}
+function includesVowel() {}
 
 /**
  * Takes in a string and returns the number of vowels that it contains.
@@ -64,4 +64,15 @@ function includesVowel(){}
  * @returns {number} number of vowels
  */
 
- function vowelCount(){};
+function vowelCount() {}
+
+module.exports = {
+  replaceVowels,
+  makeStringEvenLength,
+  lastThreeLetters,
+  doesStartWithVowel,
+  combineStrings,
+  mashUp,
+  includesVowel,
+  vowelCount,
+};

@@ -32,7 +32,7 @@ function capitalizeLastLetter() {}
 
 /**
  *  Create a drEvil function that will take a single number variable, and log the '<variableAmount> dollars',
-your code block should add '(pinky)' at the end of the amount if it's 1 million. For example:
+and should add '(pinky)' at the end of the amount if it's 1 million or more. For example:
 
 ```js
 let amount = 10
@@ -71,7 +71,7 @@ verbing('go')
 function verbing() {}
 
 /**
- * Takes a single string and returns a copy of the string without the
+ * Takes a single sentence and returns a copy of the string without the
  * last word.
  * @param {string}
  * @returns {string}
@@ -102,6 +102,8 @@ function disemvowel() {}
  * @param {string}
  * @returns {string}
  */
+
+ function disemvowelLongWords(){}
 
 /**
  * Takes in a string and returns the middle char.
@@ -139,6 +141,7 @@ module.exports = {
   removeLastWord,
   everyOtherLetter,
   disemvowel,
+  disemvowelLongWords,
   middleCharacter,
   reverseString,
   reverseSentenceWords,

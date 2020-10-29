@@ -41,7 +41,7 @@ let amount = 1000000
 // =>  1000000 dollars (pinky)
 ```
 * @param {number}
-* returns {string}
+* @returns {string}
  */
 function drEvil() {}
 

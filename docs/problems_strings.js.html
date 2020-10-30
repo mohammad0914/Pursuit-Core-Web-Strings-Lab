@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: problems/strings.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: problems/strings.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * Returns the first character of a string passed in.
+ * @param {string} - str
+ * @returns {string} - first char
+ */
+function firstChar() {}
+
+/**
+ * Returns the length of a string
+ * @param {string} - str
+ * @returns {number} - length of string
+ */
+
+function stringLength() {}
+
+/**
+ * Returns the last character of any string
+ * @param {string} - str
+ * @returns {string} - last letter
+ */
+
+function lastLetter() {}
+
+/**
+ * Takes a single string variable and returns a copy of the string with the
+ * letter capitalized.
+ * @param {string} - str 'jimmy'
+ * @returns {string} - 'jimmY'
+ */
+
+function capitalizeLastLetter() {}
+
+/**
+ *  Create a drEvil function that will take a single number variable, and log the '&lt;variableAmount> dollars',
+and should add '(pinky)' at the end of the amount if it's 1 million or more. For example:
+
+```js
+let amount = 10
+// => 10 dollars
+let amount = 1000000
+// =>  1000000 dollars (pinky)
+```
+* @param {number}
+* @returns {string}
+ */
+function drEvil() {}
+
+/**
+ * 
+ * Create a `verbing` function.
+ * It should take a single string variable. 
+ * If its length is at least 3, it should add 'ing' to its end, unless it already ends in 'ing', 
+ * in which case it should add 'ly' instead. If the string length is less than 3, it should leave it unchanged. 
+ * @param {string}
+ * @returns {string}
+For example:
+
+```js
+verbing('box')
+// => 'boxing'
+verbing('train')
+// => 'training'
+verbing('swimming')
+// =>  'swimmingly'
+verbing('go')
+// =>  'go'
+```
+ 
+ */
+
+function verbing() {}
+
+/**
+ * Takes a single sentence and returns a copy of the string without the
+ * last word.
+ * @param {string}
+ * @returns {string}
+ */
+
+function removeLastWord() {}
+
+/**
+ * Takes a string and returns a new string that has only the even
+ * indexed characters.
+ * Do NOT split the string into an array.
+ * @param {string}
+ * @returns {string}
+ */
+
+function everyOtherLetter() {}
+
+/**
+ * Takes in a string and returns a new string that has all the vowels removed.
+ * @param {string}
+ * @returns {string}
+ */
+function disemvowel() {}
+
+/**
+ * Takes a string sentence and returns a new sentence.
+ * Any word that has a length of 5 or more characters should be disemvoweled.
+ * @param {string}
+ * @returns {string}
+ */
+
+ function disemvowelLongWords(){}
+
+/**
+ * Takes in a string and returns the middle char.
+ * If there is no character in the middle return the middle two characters
+ * @param {string}
+ * @returns {string}
+ */
+function middleCharacter() {}
+
+/**
+ * Takes in a string and reverses it.
+ * Do not use split
+ * @param {string}
+ * @returns {string}
+ */
+
+function reverseString() {}
+
+/**
+ * Takes in a sentence string and reverses each word but not the
+ * order of the words.
+ * @param {string}
+ * @returns {string}
+ */
+
+function reverseSentenceWords() {}
+
+module.exports = {
+  firstChar,
+  stringLength,
+  lastLetter,
+  capitalizeLastLetter,
+  drEvil,
+  verbing,
+  removeLastWord,
+  everyOtherLetter,
+  disemvowel,
+  disemvowelLongWords,
+  middleCharacter,
+  reverseString,
+  reverseSentenceWords,
+};
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#capitalizeLastLetter">capitalizeLastLetter</a></li><li><a href="global.html#combineStrings">combineStrings</a></li><li><a href="global.html#disemvowel">disemvowel</a></li><li><a href="global.html#disemvowelLongWords">disemvowelLongWords</a></li><li><a href="global.html#doesStartWithVowel">doesStartWithVowel</a></li><li><a href="global.html#drEvil">drEvil</a></li><li><a href="global.html#everyOtherLetter">everyOtherLetter</a></li><li><a href="global.html#firstChar">firstChar</a></li><li><a href="global.html#includesVowel">includesVowel</a></li><li><a href="global.html#lastLetter">lastLetter</a></li><li><a href="global.html#lastThreeLetters">lastThreeLetters</a></li><li><a href="global.html#makeStringEvenLength">makeStringEvenLength</a></li><li><a href="global.html#mashUp">mashUp</a></li><li><a href="global.html#middleCharacter">middleCharacter</a></li><li><a href="global.html#removeLastWord">removeLastWord</a></li><li><a href="global.html#replaceVowels">replaceVowels</a></li><li><a href="global.html#reverseSentenceWords">reverseSentenceWords</a></li><li><a href="global.html#reverseString">reverseString</a></li><li><a href="global.html#stringLength">stringLength</a></li><li><a href="global.html#verbing">verbing</a></li><li><a href="global.html#vowelCount">vowelCount</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.6</a> on Fri Oct 30 2020 10:12:35 GMT-0400 (Eastern Daylight Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

@@ -4,7 +4,7 @@
   "description": "1. `console.log` the first character of a string.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand",
+    "test": "jest --runInBand tests/",
     "bonus": "jest --runInBand bonus/bonus.test.js"
   },
   "repository": {

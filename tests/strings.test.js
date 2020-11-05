@@ -68,7 +68,7 @@ describe("verbing", () => {
   });
   test("adds ing to the end of words", () => {
     expect(verbing("box")).toBe("boxing");
-    expect(verbing("traing")).toBe("trainging");
+    expect(verbing("train")).toBe("training");
   });
   test("adds ly to words that already end in ing", () => {
     expect(verbing("swimming")).toBe("swimmingly");
@@ -137,7 +137,7 @@ describe("reverseString", () => {
 
 describe("reverseSentenceWords", () => {
   test("reverse each word but leaves the order unchanged", () => {
-    expect(reverseSentenceWords("cats are the best")).toBe("stac era eht tesb");
+    expect(reverseSentenceWords("cats are the best")).toBe("stac era eht tseb");
     expect(reverseSentenceWords("Hello world")).toBe("olleH dlrow");
   });
 });

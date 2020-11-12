@@ -63,7 +63,7 @@ describe("doesStartWithVowel", () => {
 
 describe("combineStrings", () => {
   test("combines two strings", () => {
-    expect(combineStrings("hello", "word")).toBe("hello world");
+    expect(combineStrings("hello", "world")).toBe("hello world");
     expect(combineStrings("taco", "cat")).toBe("taco cat");
   });
 });
@@ -74,8 +74,8 @@ describe("mashUp", () => {
     expect(mashUp("taco", "cat")).toBe("tacatco");
   });
   test("works with odd length first words", () => {
-    expect(mashUp("hello", "world")).toBe("helwordlo");
-    expect(mashUp("eat", "cat")).toBe("eacatt");
+    expect(mashUp("hello", "world")).toBe("heworldllo");
+    expect(mashUp("eat", "cat")).toBe("ecatat");
   });
 });
 

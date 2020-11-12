@@ -41,8 +41,8 @@ function combineStrings() {}
 /**
  * Write a function that takes in two strings, `str1` and `str2`,
  * return a new string with `str2` mashed into the middle of `str1`
- * Exp str1 = 'help' str2 = 'me' returns 'hemelp.
- * Exp str1 = 'hello' str2 = 'world' returns 'helworldlo.
+ * Exp str1 = 'help' str2 = 'me' returns 'hemelp'.
+ * Exp str1 = 'hello' str2 = 'world' returns 'heworldllo.'
  * @param {string} str1
  * @param {string} str2
  * @returns {string}

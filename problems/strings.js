@@ -7,7 +7,11 @@
  * example: firstChar("pinapple") returns "p"
  * example: firstChar("") returns ""
  */
-function firstChar() {}
+function firstChar(str) {
+  if(str.length==0)
+  return str;
+  return str[0];
+}
 
 
 /**
@@ -18,7 +22,9 @@ function firstChar() {}
  * example: stringLength("what") returns 4
  * example: stringLength("sixteen") returns 7
  */
-function stringLength() {}
+function stringLength(str) {
+  return str.length;
+}
 
 
 /**
@@ -31,7 +37,11 @@ function stringLength() {}
  * example: lastLetter("") returns ""
  */
 
-function lastLetter() {
+function lastLetter(str) {
+if(str.length==0)
+return str;
+
+return str[str.length-1];
 }
 
 /**
@@ -43,7 +53,13 @@ function lastLetter() {
  * example: capitalizeLastLetter("jimmy") returns "jimmY"
  * example: capitalizeLastLetter("what is the meaning of life") returns "what is the meaning of lifE"
  */
-function capitalizeLastLetter() {}
+function capitalizeLastLetter(str) {
+  if (str.length<=1)
+   return str;
+  let lastCharacter=str[str.length-1].toUpperCase();
+  let newString= str.slice(0,str.length-1)+lastCharacter;
+  return newString;
+}
 
 
 /**
@@ -56,7 +72,12 @@ function capitalizeLastLetter() {}
  * example: drEvil(10) returns "10 dollars"
  * example: drEvil(100000000) returns "100000000 dollars (pinky)"
  */
-function drEvil() {}
+function drEvil(num) {
+  if(num>=1000000)
+  return `${num} dollars (pinky)`;
+
+  return `${num} dollars`;
+}
 
 /**
  * verbing() should take a string. 
@@ -69,7 +90,18 @@ function drEvil() {}
  * verbing('swimming') returns  'swimmingly'
  * verbing('go') returns  'go'
  */
-function verbing() {}
+function verbing(str) {
+  if(str.length>=3)
+  {
+    if(str.includes("ing"))
+    return str+"ly";
+
+    return str+"ing";
+  }else
+  {
+    return str;
+  }
+}
 
 
 /**
@@ -81,7 +113,13 @@ function verbing() {}
  * example: removeLastWord("Hello!") returns ""
  * example: removeLastWord("I eat cake") returns "I eat"
  */
-function removeLastWord() {}
+function removeLastWord(str) {
+
+
+ let array= str.split(" ");
+ array.pop();
+ return array.join(" ");
+}
 
 
 /**
@@ -94,7 +132,15 @@ function removeLastWord() {}
  * example: everyOtherLetter("Corey") returns "Cry"
  * example: everyOtherLetter("Skull candy") returns "Sulcny"
  */
-function everyOtherLetter() {}
+function everyOtherLetter(str) {
+  let array=[];
+  for (let i=0;i<str.length;i++) {
+    if(i%2===0)
+    array.push(str[i]);
+  }
+
+  return array.join("");
+}
 
 
 /**
